@@ -33,6 +33,14 @@
             "command"        : "git checkout .vscode/settings.json",
             "presentation"   : {"showReuseMessage": false, "focus": false, "reveal": "silent", "close": true},
             "problemMatcher" : []
+        },
+        {
+            "label"          : "ts: build",
+            "type"           : "shell",
+            "command"        : "make ts",
+            "problemMatcher" : [],
+            "group"          : {"kind": "build", "isDefault": true },
+            "presentation"   : {"showReuseMessage": true, "focus": false, "reveal": "silent", "close": false}
         }
     ]
 }

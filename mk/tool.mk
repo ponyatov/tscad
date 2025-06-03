@@ -7,5 +7,6 @@ PIP    = $(CWD)/bin/pip3
 RUSTUP = $(CAR)/bin/rustup
 CARGO  = $(CAR)/bin/cargo
 NPM    = /usr/bin/npm
+NODE   = /usr/bin/node
 TSC    = $(HOME)/.npm/bin/tsc
 YO     = $(HOME)/.npm/bin/yo
