@@ -9,4 +9,5 @@ $(TSC) $(YO): $(NPM)
 ts: tmp/$(APP).js
 	$(NODE) $<
 tmp/%.js: src/%.ts
-	$(TSC) $< --outFile $@
+	$(NPM) run build
+# $(TSC) $< --outFile $@

@@ -6,7 +6,9 @@
     "license": "MIT",
     "main": "src/tscad.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npx tsc",
+        "run": "ts-node src/tscad.ts"
     },
     "repository": {
         "type": "git",
@@ -14,5 +16,8 @@
     },
     "keywords": [
         "CAD"
-    ]
+    ],
+    "devDependencies": {
+        "ts-node": "^10.9.2"
+    }
 }

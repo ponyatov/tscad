@@ -40,7 +40,7 @@
             "command"        : "make ts",
             "problemMatcher" : [],
             "group"          : {"kind": "build", "isDefault": true },
-            "presentation"   : {"showReuseMessage": true, "focus": false, "reveal": "silent", "close": false}
+            "presentation"   : {"showReuseMessage": true, "focus": true, "reveal": "silent", "close": false}
         }
     ]
 }
