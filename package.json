@@ -1,0 +1,18 @@
+{
+    "name": "tscad",
+    "description": "TypeScript CAD engine",
+    "version": "0.0.1",
+    "author": "Dmitry Ponyatov <dponyatov@gmail.com>",
+    "license": "MIT",
+    "main": "src/tscad.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitflic.ru/project/dponyatov/tscad"
+    },
+    "keywords": [
+        "CAD"
+    ]
+}
