@@ -1,0 +1,23 @@
+{
+    "recommendations": [
+        "stkb.rewrap",
+        "ms-vscode.makefile-tools",
+        "IBM.output-colorizer",
+        // formatters
+        "xaver.clang-format",
+        "foxundermoon.shell-format",
+        "esbenp.prettier-vscode",
+        // misc
+        "usernamehw.errorlens",
+        // "hbenl.vscode-test-explorer",
+        // Web
+        "mechatroner.rainbow-csv",
+        "jock.svg",
+        // JS
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        // Rust
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+    ]
+}
