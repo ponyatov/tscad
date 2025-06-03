@@ -4,7 +4,8 @@ install: $(WS)_install $(RUSTUP) doc ref gz
 	$(RUSTUP) target    add $(RTARGET)
 	$(RUSTUP) component add rust-src --toolchain nightly
 	$(MAKE) update
-update : $(WS)_update $(RUSTUP)
+
+update : $(WS)_update $(RUSTUP) $(NPM) $(TSC) $(YO)
 	$(RUSTUP) self update
 	$(RUSTUP)      update
 ref    : $(RF)
@@ -15,14 +16,3 @@ Debian_install: Debian_update
 Debian_update:
 	sudo apt update
 	sudo apt install -uy `cat apt.$(WS)` $(APT)
-
-# Msys_install: doc ref gz
-# 	pacman -Suy
-# Msys_update:
-# 	pacman -S $(shell cat apt.$(WS) | tr '\n' ' ') $(MSYS)
-
-.PHONY: rust
-rust: $(RUSTUP)
-	$< self update
-$(RUSTUP):
-	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
