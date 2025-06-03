@@ -3,10 +3,17 @@
         "stkb.rewrap",
         "ms-vscode.makefile-tools",
         "IBM.output-colorizer",
+        // GPT
+        "AmazonWebServices.aws-toolkit-vscode",
+        "aleksandardev.vscode-sequence-diagrams",
+        "jebbs.plantuml",
         // formatters
         "xaver.clang-format",
         "foxundermoon.shell-format",
         "esbenp.prettier-vscode",
+        // Linux
+        "ms-vscode-remote.remote-ssh",
+        "coolbear.systemd-unit-file",
         // misc
         "usernamehw.errorlens",
         // "hbenl.vscode-test-explorer",
